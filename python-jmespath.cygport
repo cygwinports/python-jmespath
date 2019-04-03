@@ -1,0 +1,13 @@
+inherit python-wheel
+
+NAME="python-jmespath"
+VERSION=0.9.4
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python JSON Matching Expressions module"
+DESCRIPTION="JMESPath allows you to declaratively specify how to extract
+elements from a JSON document."
+
+ARCH=noarch
+
+python37_jmespath_CONTENTS+=" usr/bin/jp.py"
